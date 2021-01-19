@@ -1,14 +1,19 @@
-import './App.css';
+import "./App.css";
+import Footer from "./Footer";
+import Home from "./Home";
+import Search from "./Search";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-          Learn React
-      </header>
+    <div className="app">
+      {/* Home */}
+      <Home />
+
+      {/* Searchpage */}
+      <Search />
+      {/* Header */}
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }
